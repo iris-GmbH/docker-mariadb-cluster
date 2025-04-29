@@ -1,0 +1,5 @@
+stages:
+  - build-image
+
+include:
+  - component: $CI_SERVER_FQDN/internal-projects/gitlab-ci-components/common-container-image-tasks/build-container-image@4
